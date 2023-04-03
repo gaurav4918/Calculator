@@ -1,0 +1,135 @@
+// **********ARITHMATIC OPERATORS********** :-
+let sum = 10 + 4;
+let sub = 10 - 4;
+let multiply = 10 * 4;
+let div = 10 / 4;
+let expo = 10 ** 4;
+    console.log(sum)
+    console.log(sub)
+    console.log(multiply)
+    console.log(div)
+    console.log(expo)
+
+// let a = 25;
+// let b = 4;
+    console.log("a+b= ", a+b)
+    console.log("a-b= ", a-b)
+    console.log("a*b= ", a*b)
+    console.log("a/b= ", a/b)
+    console.log("a**b= ", a**b)
+    console.log("a%b= ", a%b)
+    console.log("++a= ", ++a)
+    console.log("a++= ", a++)
+    console.log("--a= ", --a)
+    console.log("a--= ", a--)
+    console.log("a= ", a)
+
+// **********ASSIGNMENT OPERATORS********** :-
+// let a=35;
+// let b=27;
+// let c=13;
+    a += 12;
+    b += 9;
+    c +=7;
+    sum=a+b+c;
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log('total: '+ sum);
+
+// let a=30;
+// let b=170;
+// let c=120;
+    a -= 12;
+    b -= 9;
+    c -=7;
+    sub=a-b-c;
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log('total: '+ sub);
+
+// let a=3;
+// let b=17;
+// let c=12;
+    a *= 12;
+    b *= 9;
+    c *=7;
+    multiply=a*b*c;
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log('total: '+ multiply);
+    
+// let a=48;
+// let b=108;
+// let c=33;
+    a /= 12;
+    b /= 4;
+    c /=11;
+    div=a/b/c;
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log('total: '+ div);
+
+//**********COMPARISON OPERATORS**********:-
+// EQUAL TO OPERATOR :-
+function testEqual(val){
+    if(val == 10){
+        return "equal";
+    }
+    return "not equal";
+}
+testEqual(10);
+console.log(testEqual(10))
+
+// EQUAL VALUE AND TYPES OPERATOR :-
+function compareEquality(a,b){
+    if(a===b){
+        return 'equal';
+    }
+    return 'not equal';
+}
+console.log(compareEquality(10,'10'))
+
+let comp1=6;
+let comp2="6";
+console.log("comp1 == comp2 is: ", comp1 == comp2);
+console.log("comp1 != comp2 is: ", comp1 != comp2);
+console.log("comp1 === comp2 is: ", comp1 === comp2);
+console.log("comp1 !== comp2 is: ", comp1 !== comp2);
+
+// AND OPERATORS :-
+function logicAnd(val){
+    if(val <=50 && val >=25){
+        return 'yes';
+    }
+    return 'no';
+}
+logicAnd(25);
+console.log(logicAnd(25));
+
+// OR OPERATORS :-
+function logicAnd(val){
+    if(val < 10 || val > 20){
+        return 'outside';
+    }
+    return 'inside';
+}
+logicAnd(15);
+console.log(logicAnd(25));
+
+// TERNARY OPERATOR :-
+function checkEqual(a,b){
+    return a === b ? true : false;
+}
+checkEqual(2,3);
+
+function checkSign(num){
+    return num > 0 ? "positive" : num < 0 ? "negative" : zero;
+}
+checkSign(15);
+
+let num= prompt("Enter the number: ");
+console.log(num<100 ? "valid number":"invalid number");
